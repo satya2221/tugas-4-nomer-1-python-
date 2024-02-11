@@ -1,0 +1,19 @@
+[project]
+name = "Tugas_4"
+version = "0.1.0"
+description = "ini tugas 4"
+authors = [
+    {name = "kelompok13", email = "muhammad.syaban@gmail.com"},
+]
+dependencies = []
+requires-python = ">=3.11"
+readme = "README.md"
+license = {text = "MIT"}
+
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
+
+
+[tool.pdm]
+distribution = true
